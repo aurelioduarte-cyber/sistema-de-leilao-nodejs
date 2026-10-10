@@ -1,0 +1,37 @@
+# Dependências do Node.js (serão instaladas dentro do container)
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos e diretórios do Git
+.git
+.gitignore
+
+# Configurações locais e segredos
+.env
+.env.local
+.env.*.local
+
+# Builds temporários e cache
+dist
+build
+.cache
+
+# Dockerfile e arquivos de orquestração local
+Dockerfile
+docker-compose*.yml
+.dockerignore
+
+# Documentação, testes e logs
+*.md
+README.md
+coverage
+logs
+*.log
+
+# Arquivos de editores e SO
+.vscode
+.idea
+.DS_Store
+Thumbs.db
